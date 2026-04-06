@@ -18,7 +18,7 @@ apiVersion: engineer/v1
 kind: Agent
 metadata:
   name: pratik-raut
-  location: Nuremberg, Germany
+  location: Erlangen, Germany
   labels:
     role: ai-solutions-engineer
     org: siemens
@@ -39,15 +39,15 @@ spec:
 
     - role: AI Research Engineer
       org: FAPS, FAU Erlangen-Nuremberg
-      highlight: "Agentic causal discovery on NVIDIA OpenClaw — published in ScienceDirect"
+      highlight: "Agentic causal discovery on NVIDIA OpenClaw — ~20% agent perf gain, published"
 
     - role: AI Engineer
       org: Bosch
-      highlight: "Patent intelligence copilot — 80 hrs/week saved"
+      highlight: "Patent copilot — 80 hrs/week saved, 40% faster IP analysis, 35% fewer hallucinations"
 
     - role: Data Scientist
       org: Nirvana
-      highlight: "5 ML systems end-to-end — fraud (96% recall), CLV, churn, dormancy, sentiment"
+      highlight: "7 ML systems E2E — fraud, CLV, search ranking, recommendations, sentiment"
 
   activeDeployments:
     - name: StratosGuard
@@ -95,7 +95,7 @@ Automated root cause analysis with human-in-the-loop. 8+ MCP tool servers with d
 <td width="50%">
 
 **Patent Intelligence Copilot** — *Bosch* \
-Enterprise RAG with grounded citations and hallucination detection. Knowledge graph for patent citation networks. 80 hrs/week saved. \
+Enterprise RAG with grounded citations. Knowledge graph for patent networks — 40% faster IP analysis. Hallucination rates down 35%. 80 hrs/week saved. \
 `Azure OpenAI` `LangChain` `Neo4j` `Airflow` `RAGAS`
 
 </td>
@@ -104,15 +104,31 @@ Enterprise RAG with grounded citations and hallucination detection. Knowledge gr
 <td width="50%">
 
 **Agentic Causal Discovery** — *FAPS* &nbsp; [![Paper](https://img.shields.io/badge/paper-ScienceDirect-orange?style=flat-square&logo=elsevier)](https://www.sciencedirect.com/science/article/pii/S0306457325001438) \
-LLMs aligned via RLHF/GRPO for autonomous causal discovery. Sandboxed agentic platform on NVIDIA OpenClaw. ~30% refutation accuracy gain. \
+LLMs aligned via RLHF/GRPO — ~20% agent performance gain. Sandboxed platform on NVIDIA OpenClaw. ~30% refutation accuracy gain. \
 `PyTorch` `RLHF` `GRPO` `MCP` `Docker`
 
 </td>
 <td width="50%">
 
-**ML Systems Suite** — *Nirvana* \
-Fraud detection (96% recall), chargeback prediction (89% recall), CLV (8% MAPE), dormancy reactivation (500K+ users, 4.2x ROI), sentiment intelligence (150K+ reviews). \
-`LightGBM` `CatBoost` `Optuna` `NLP`
+**Fraud, CLV & Churn Pipelines** — *Nirvana* \
+CatBoost fraud + chargeback detection (96%/89% recall, 34% fewer false negatives). LightGBM CLV (8% MAPE) + churn (0.93 AUC, 14% churn reduction). \
+`CatBoost` `LightGBM` `Optuna`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Search Ranking System** — *Nirvana* \
+Multi-stage ranking: BM25, bi-encoders, cross-encoder, LightGBM L2R. 61% relevance improvement (MRR@10: 0.84) across 100K passages. \
+`LightGBM` `Transformers` `BM25`
+
+</td>
+<td width="50%">
+
+**Recommendations & Intelligence** — *Nirvana* \
+LightGCN + SimpleX recommendation system — 5x NDCG lift, 49% catalog coverage across 2.7M events. BERT-based competitor sentiment across 150K+ reviews. \
+`LightGCN` `BERT` `NLP`
 
 </td>
 </tr>
@@ -122,7 +138,7 @@ Fraud detection (96% recall), chargeback prediction (89% recall), CLV (8% MAPE),
 
 ## Toolbox
 
-**Agents & LLMs** &nbsp; `LangChain` `LangGraph` `LlamaIndex` `Google ADK` `Strands SDK` `MCP` `A2A` `vLLM` `LiteLLM` `Ray` `DeepSpeed`
+**Agents & LLMs** &nbsp; `LangChain` `LangGraph` `LlamaIndex` `Google ADK` `Strands SDK` `MCP` `A2A` `vLLM` `LiteLLM` `Ray` `DeepSpeed` `FSDP`
 
 **RAG & Eval** &nbsp; `RAGAS` `Langfuse` `LangSmith` `Docling` `Crawl4AI`
 
@@ -134,7 +150,7 @@ Fraud detection (96% recall), chargeback prediction (89% recall), CLV (8% MAPE),
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
-&nbsp; `Bedrock` `AgentCore` `SageMaker` `Lambda` `AI Foundry` `GKE`
+&nbsp; `Bedrock` `AgentCore` `SageMaker` `Lambda` `AI Foundry` `Azure ML` `GKE` `Databricks`
 
 **Infra** &nbsp;
 ![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
@@ -142,6 +158,8 @@ Fraud detection (96% recall), chargeback prediction (89% recall), CLV (8% MAPE),
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white)
 &nbsp; `KEDA` `MLflow` `W&B` `DVC` `Prometheus` `Grafana`
+
+**Backend** &nbsp; `FastAPI` `Flask` `Django` `React` `SQLAlchemy` `REST APIs`
 
 **Data** &nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
