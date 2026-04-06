@@ -138,34 +138,85 @@ LightGCN + SimpleX recommendation system — 5x NDCG lift, 49% catalog coverage 
 
 ## Toolbox
 
-**Agents & LLMs** &nbsp; `LangChain` `LangGraph` `LlamaIndex` `Google ADK` `Strands SDK` `MCP` `A2A` `vLLM` `LiteLLM` `Ray` `DeepSpeed` `FSDP`
+**Agents & LLMs** &nbsp;
+![LangChain](https://img.shields.io/badge/LangChain-%231C3C3C.svg?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-%231C3C3C.svg?style=flat-square&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-%236B3FA0.svg?style=flat-square)
+![Google ADK](https://img.shields.io/badge/Google%20ADK-%234285F4.svg?style=flat-square&logo=google&logoColor=white)
+![Strands SDK](https://img.shields.io/badge/Strands%20SDK-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-%23191919.svg?style=flat-square)
+![A2A](https://img.shields.io/badge/A2A-%234285F4.svg?style=flat-square&logo=google&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-%231D4ED8.svg?style=flat-square)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-%231D4ED8.svg?style=flat-square)
+![Ray](https://img.shields.io/badge/Ray-%23028CF0.svg?style=flat-square&logo=ray&logoColor=white)
+![DeepSpeed](https://img.shields.io/badge/DeepSpeed-%230078D4.svg?style=flat-square&logo=microsoft&logoColor=white)
+![FSDP](https://img.shields.io/badge/FSDP-%23EE4C2C.svg?style=flat-square&logo=pytorch&logoColor=white)
 
-**RAG & Eval** &nbsp; `RAGAS` `Langfuse` `LangSmith` `Docling` `Crawl4AI`
+**RAG & Eval** &nbsp;
+![RAGAS](https://img.shields.io/badge/RAGAS-%230F766E.svg?style=flat-square)
+![Langfuse](https://img.shields.io/badge/Langfuse-%230F766E.svg?style=flat-square)
+![LangSmith](https://img.shields.io/badge/LangSmith-%231C3C3C.svg?style=flat-square&logo=langchain&logoColor=white)
+![Docling](https://img.shields.io/badge/Docling-%230F766E.svg?style=flat-square)
+![Crawl4AI](https://img.shields.io/badge/Crawl4AI-%230F766E.svg?style=flat-square)
 
-**ML & DL** &nbsp; `PyTorch` `TensorFlow` `HuggingFace` `scikit-learn` `XGBoost` `LightGBM` `CatBoost` `Optuna` `PySpark`
+**ML & DL** &nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=tensorflow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-%23FFD21E.svg?style=flat-square&logo=huggingface&logoColor=black)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-%23337AB7.svg?style=flat-square)
+![LightGBM](https://img.shields.io/badge/LightGBM-%23339900.svg?style=flat-square)
+![CatBoost](https://img.shields.io/badge/CatBoost-%23FFCC00.svg?style=flat-square&logoColor=black)
+![Optuna](https://img.shields.io/badge/Optuna-%231E88E5.svg?style=flat-square)
+![PySpark](https://img.shields.io/badge/PySpark-%23E25A1C.svg?style=flat-square&logo=apachespark&logoColor=white)
 
-**RL** &nbsp; `RLHF` `GRPO` `Gymnasium`
+**RL** &nbsp;
+![RLHF](https://img.shields.io/badge/RLHF-%236D28D9.svg?style=flat-square)
+![GRPO](https://img.shields.io/badge/GRPO-%236D28D9.svg?style=flat-square)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-%230081A5.svg?style=flat-square)
 
 **Cloud** &nbsp;
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
-&nbsp; `Bedrock` `AgentCore` `SageMaker` `Lambda` `AI Foundry` `Azure ML` `GKE` `Databricks`
+![Bedrock](https://img.shields.io/badge/Bedrock-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
+![AgentCore](https://img.shields.io/badge/AgentCore-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
+![SageMaker](https://img.shields.io/badge/SageMaker-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-%23FF9900.svg?style=flat-square&logo=awslambda&logoColor=white)
+![AI Foundry](https://img.shields.io/badge/AI%20Foundry-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure ML](https://img.shields.io/badge/Azure%20ML-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
+![GKE](https://img.shields.io/badge/GKE-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-%23FF3621.svg?style=flat-square&logo=databricks&logoColor=white)
 
 **Infra** &nbsp;
 ![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/K8s-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white)
-&nbsp; `KEDA` `MLflow` `W&B` `DVC` `Prometheus` `Grafana`
+![KEDA](https://img.shields.io/badge/KEDA-%23326CE5.svg?style=flat-square&logo=keda&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-%230194E2.svg?style=flat-square&logo=mlflow&logoColor=white)
+![W&B](https://img.shields.io/badge/W%26B-%23FFBE00.svg?style=flat-square&logo=weightsandbiases&logoColor=black)
+![DVC](https://img.shields.io/badge/DVC-%23945DD6.svg?style=flat-square&logo=dvc&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C.svg?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-%23F46800.svg?style=flat-square&logo=grafana&logoColor=white)
 
-**Backend** &nbsp; `FastAPI` `Flask` `Django` `React` `SQLAlchemy` `REST APIs`
+**Backend** &nbsp;
+![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-%23000000.svg?style=flat-square&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=flat-square&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232A.svg?style=flat-square&logo=react&logoColor=61DAFB)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-%23D71F00.svg?style=flat-square)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-%2315803D.svg?style=flat-square)
 
 **Data** &nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white)
-&nbsp; `pgvector` `Weaviate` `Faiss` `DynamoDB` `OpenSearch`
+![pgvector](https://img.shields.io/badge/pgvector-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
+![Weaviate](https://img.shields.io/badge/Weaviate-%2300A98F.svg?style=flat-square&logo=weaviate&logoColor=white)
+![Faiss](https://img.shields.io/badge/Faiss-%230467DF.svg?style=flat-square&logo=meta&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-%234053D6.svg?style=flat-square&logo=amazondynamodb&logoColor=white)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-%23005EB8.svg?style=flat-square&logo=opensearch&logoColor=white)
 
 ---
 
