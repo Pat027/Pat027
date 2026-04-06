@@ -202,9 +202,10 @@ LightGCN + SimpleX recommendation system — 5x NDCG lift, 49% catalog coverage 
 
 **Backend** &nbsp;
 ![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-%2320232A.svg?style=flat-square&logo=react&logoColor=61DAFB)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-%23D71F00.svg?style=flat-square)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-%2315803D.svg?style=flat-square)
+&nbsp; **Frontend** &nbsp;
+![React](https://img.shields.io/badge/React-%2320232A.svg?style=flat-square&logo=react&logoColor=61DAFB)
 
 **Data** &nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
