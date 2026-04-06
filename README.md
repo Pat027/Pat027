@@ -47,7 +47,7 @@ spec:
 
     - role: Data Scientist
       org: Nirvana
-      highlight: "Fraud, CLV, churn, dormancy systems — 96% recall, 0.93 AUC"
+      highlight: "5 ML systems end-to-end — fraud (96% recall), CLV, churn, dormancy, sentiment"
 
   activeDeployments:
     - name: StratosGuard
@@ -110,9 +110,9 @@ LLMs aligned via RLHF/GRPO for autonomous causal discovery. Sandboxed agentic pl
 </td>
 <td width="50%">
 
-**Risk & Fraud Systems** — *Nirvana* \
-Dual-model fraud + chargeback detection (96% recall). CLV prediction (8% MAPE). Dormancy reactivation across 500K+ users — 4.2x campaign ROI. \
-`CatBoost` `LightGBM` `Optuna` `SageMaker`
+**ML Systems Suite** — *Nirvana* \
+Fraud detection (96% recall), chargeback prediction (89% recall), CLV (8% MAPE), dormancy reactivation (500K+ users, 4.2x ROI), sentiment intelligence (150K+ reviews). \
+`LightGBM` `CatBoost` `Optuna` `NLP`
 
 </td>
 </tr>
