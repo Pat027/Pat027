@@ -172,6 +172,5 @@ LightGCN + SimpleX recommendation system — 5x NDCG lift, 49% catalog coverage 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Pat027&show_icons=true&theme=github_dark&hide_border=true&hide_title=true&hide_rank=true&include_all_commits=true" height="150" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Pat027&theme=github-dark-blue&hide_border=true" height="150" />
 
 </div>
