@@ -50,9 +50,9 @@ spec:
       highlight: "7 ML systems E2E — fraud, CLV, search ranking, recommendations, sentiment"
 
   activeDeployments:
-    - name: StratosGuard
-      url: github.com/Pat027/StratosGuard
-      desc: "AI governance — EU AI Act, ISO 42001, NIST RMF, SOC 2"
+    - name: Revelio
+      url: github.com/Pat027/revelio
+      desc: "LLM red teaming — 35+ vulns, 26 attacks, 6 safety frameworks"
 
     - name: useful-agents.com
       url: useful-agents.com
@@ -71,9 +71,9 @@ spec:
 <tr>
 <td width="50%">
 
-**[StratosGuard](https://github.com/Pat027/StratosGuard)** \
-AI governance across 7 compliance frameworks. Automated remediation with sandboxed Terraform/Python fixes. Supply chain attack detection across 50+ AWS services. \
-`LangGraph` `FastAPI` `React` `PostgreSQL` `Celery` `Redis`
+**[Revelio](https://github.com/Pat027/revelio)** \
+LLM red teaming & safety testing. 35+ vulnerability types, 26 attack methods (single-turn + multi-turn jailbreaks), 38 metrics. 6 industry frameworks: NIST, OWASP, MITRE ATLAS, NVIDIA Aegis. \
+`Python` `OpenAI` `DeepEval` `asyncio` `PyPI`
 
 </td>
 <td width="50%">
